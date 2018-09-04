@@ -1,6 +1,6 @@
 import React, { PureComponent } from "react";
-import PropTypes from "prop-types";
-import Clipboard from "clipboard";
+import PropTypes from "prop-types"; //类型检测
+import Clipboard from "clipboard";  //clipboard 粘贴版插件
 
 import EmojiResultRow from "./EmojiResultRow";
 import "./EmojiResults.css";
